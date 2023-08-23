@@ -1,8 +1,71 @@
-
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
+void setup()
+{
+  size (535,535);
 }
 
+void draw ()
+{
+
+
+//ellipse(250,250,150,150);
+//ear:
+fill(149, 69, 53);
+ellipse(250,250,135,135);
+arc(185, 185, 60, 60, 0, PI/.25);
+arc(315, 185, 60, 60, 0, PI/.25);
+
+
+
+//body:
+ellipse(250,400,210,230);
+
+
+fill(193, 154, 107); 
+arc(185, 185, 35, 35, 0, PI/.25);
+arc(315, 185, 35, 35, 0, PI/.25);
+
+
+//Inner body:
+ellipse(250,400,120,120);
+
+//face:
+ellipse(250,250,150,150);
+
+//foot:
+
+ellipse(200,520,80,30);
+ellipse(300,520,80,30);
+//arm:
+ellipse(150,390,40,70);
+ellipse(350,390,40,70);
+
+
+
+//eyes:
+fill(255, 255, 255);
+arc(220, 250, 30, 20, 0, PI/.25);
+arc(280, 250, 30, 20, 0, PI/.25);
+fill(0, 0, 0);
+arc(220, 250, 10, 15, 0, PI/.25);
+arc(280, 250, 10, 15, 0, PI/.25);
+
+//nose:
+fill(0, 0, 0);
+ellipse(250,285,40,20);
+//Whiskers:
+//arc(220, 295, 60, 80, 0, PI/8);
+//scale(1,-1);
+//arc(220, 305, 60, 80, 0, PI/8);
+//arc(220, 295, 50, 40, 0, PI/2);
+
+
+
+//arc(150, 250, 100, 300, 0, PI/1.5);
+//arc(130, 250, 100, 300, 0, PI/2.5);
+//arc(130, 100, 100, 300, 0, PI/10);
+
+  //background(204);
+  //line(mouseX, 20, mouseX, 80);
+  //background(204);
+  //line(20, mouseY, 80, mouseY);
+}
